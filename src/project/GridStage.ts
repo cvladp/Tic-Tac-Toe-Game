@@ -1,10 +1,10 @@
 import {Settings} from "./Settings";
 import {Square} from "./Square";
-import _ = require("lodash");
+import * as _ from "lodash";
 import {Language} from "./Language";
 import {Power4, TweenMax} from "gsap";
 import TimelineMax from "gsap/gsap-core";
-
+import * as PIXI from 'pixi.js';
 /*
  * Class used to add a grid filled with squares to the game,
  * and to facilitate two way communication between Game and Square classes

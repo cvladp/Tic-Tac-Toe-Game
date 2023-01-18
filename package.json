@@ -16,13 +16,13 @@
     "lodash": "^4.17.21",
     "pixi.js": "^5.3.3",
     "puremvc": "^1.0.4",
-    "ts-loader": "^8.0.4",
+    "ts-loader": "6.2.2",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.2",
-    "typescript": "next",
+    "typescript": "3.8.3",
     "webpack-dev-server": "^3.11.0"
   }
 }

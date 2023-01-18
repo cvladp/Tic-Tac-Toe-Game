@@ -39,7 +39,7 @@ export class GameState{
     /*
      * Sets game state
     */
-    public setState(States):void{
+    public setState(States:States):void{
         this._state = States;
         this.moveToNextState();
     }

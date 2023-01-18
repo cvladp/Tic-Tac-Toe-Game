@@ -2,6 +2,7 @@ import { TweenMax } from "gsap";
 import {Settings} from "./Settings";
 import {Power4 } from 'gsap';
 import {Language} from "./Language";
+import * as PIXI from 'pixi.js';
 
 /*
  * Class used for drawing a square and handling its behaviour when clicked

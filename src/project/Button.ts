@@ -1,4 +1,4 @@
-
+import * as PIXI from 'pixi.js';
 /*
  * Class used for creating buttons
  */
