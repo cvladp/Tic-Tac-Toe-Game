@@ -2,14 +2,14 @@ import {Button} from "./Button";
 import _ = require("lodash");
 import {Language} from "./Language";
 import {Settings} from "./Settings";
-
+import * as PIXI from 'pixi.js';
 /*
  * Class used for creating a difficulty selector drop down menu
  */
 export class DropDownMenu extends PIXI.Container {
 
     private _menuOptions: Button[];
-    private _selectedOption: Button;
+    private _selectedOption: any;
     public clickOnDropMenu: Function;
     private _menuIsShowing:boolean;
     private _selectableDifficulties: Button[];

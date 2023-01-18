@@ -3,7 +3,7 @@ import {ScoreButton} from "./ScoreButton";
 import {Settings} from "./Settings";
 import {Language} from "./Language";
 import {DropDownMenu} from "./DropDownMenu";
-
+import * as PIXI from 'pixi.js';
 /*
  * Class used to add a buttons to the game
  * and to facilitate two way communication between Game and Button classes
